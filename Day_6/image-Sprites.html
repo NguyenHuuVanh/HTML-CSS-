@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image-Sprites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bf483bebf6.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      #navlist li {
+        cursor: pointer;
+      }
+      #navlist {
+        list-style-type: none;
+        position: relative;
+      }
+      #navlist #home {
+        font-size: 50px;
+        display: inline-block;
+        padding: 0 150px;
+        color: #000;
+      }
+      .fa-solid {
+        color: #000;
+      }
+      #navlist #prev {
+        font-size: 50px;
+        display: inline-block;
+        padding: 0 150px;
+      }
+      #navlist #next {
+        font-size: 50px;
+        display: inline-block;
+        padding: 0 150px;
+      }
+      #home i:hover {
+        opacity: 0.5;
+      }
+      .box {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navlist">
+      <li id="home">
+        <a href="https://www.facebook.com/vietbui673/" target="iframe">
+          <i class="fa-solid fa-house"></i
+        ></a>
+      </li>
+      <li id="prev">
+        <i class="fa-solid fa-circle-arrow-left"></i><a href=""></a>
+      </li>
+      <li id="next">
+        <i class="fa-solid fa-circle-arrow-right"></i><a href=""></a>
+      </li>
+      <div class="box">
+        <iframe src="" name="iframe" width="100%" height="500px"></iframe>
+      </div>
+    </div>
+  </body>
+</html>

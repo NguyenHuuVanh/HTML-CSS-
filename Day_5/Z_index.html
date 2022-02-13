@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-index</title>
+    <style>
+      .box-red {
+        border: 1px solid red;
+        box-sizing: border-box;
+        width: 20%;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+        background-color: red;
+        position: relative;
+        margin-left: 111px;
+        z-index: 3;
+      }
+      .box-blue {
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 242px;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+        background-color: blue;
+        position: relative;
+        margin-top: -94px;
+        margin-bottom: 81px;
+        z-index: 2;
+      }
+      .box-black {
+        border: 1px solid green;
+        box-sizing: border-box;
+        width: 242px;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+        background-color: black;
+        position: relative;
+        margin-left: 290px;
+        color: white;
+        margin-top: -80px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Z-index below</h1>
+    <div class="box-red">Z-index =3</div>
+    <div class="box-blue">Z-index=2</div>
+    <div class="box-black">Z-index=1</div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+h1 {
+  border: 2px hidden red;
+  text-align: center;
+}
+.boder-one {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+.boder-two {
+  border-style: double;
+  border-width: 5px;
+}
+.boder-three {
+  border-style: dotted;
+  border-width: 5px;
+}
+.boder-four {
+  border-style: dashed;
+  border-width: 5px;
+}
+.boder-five {
+  border-style: groove;
+  border-width: 5px;
+}
+.boder-six {
+  border-style: hidden;
+  border-width: 5px;
+}

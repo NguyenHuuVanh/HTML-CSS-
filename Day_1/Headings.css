@@ -1,0 +1,16 @@
+h1 {
+  color: rgba(212, 20, 20, 0.753);
+  font-size: 30px;
+}
+h2 {
+  color: burlywood;
+  font-size: 15px;
+}
+p {
+  color: black;
+  font-style: italic;
+  font-size: 15px;
+}
+li {
+  color: rgb(10, 6, 1);
+}

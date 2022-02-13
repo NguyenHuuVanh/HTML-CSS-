@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="class.css" />
+  <meta charset="utf8-" />
+  <head>
+    <title>Sử dụng thẻ class trong html</title>
+    <body>
+      <h1>các class</h1>
+      <div class="class">
+        <h2>Đây là nội dung của class 1</h2>
+        <p>Học thuộc tính class trong w3school</p>
+      </div>
+      <div class="class">
+        <h2>Đây là nội dung của class 2</h2>
+        <p>Học thuộc tính class trong w3school</p>
+      </div>
+      <div class="class">
+        <h2>Đây là nội dung của class 3</h2>
+        <p>Học thuộc tính class trong w3school</p>
+      </div>
+      <p class="js">Dùng javaScrips</p>
+      <button onclick="myFunction() ">Ẩn tên các quốc gia</button>
+      <h2 class="city">Việt Nam</h2>
+      <p>Đất nước xinh đẹp</p>
+      <h2 class="city">Thailand</h2>
+      <p>Đất nước nhiều chùa</p>
+      <h2 class="city">China</h2>
+      <p>Đất nước giàu có,xinh đẹp</p>
+      <script>
+        function myFunction() {
+          var x = document.getElementsByClassName("city");
+          for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+        }
+      </script>
+    </body>
+  </head>
+</html>

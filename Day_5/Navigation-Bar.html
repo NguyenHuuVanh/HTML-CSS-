@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation bar</title>
+  </head>
+  <style>
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+    }
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+    }
+    li a:hover:not(.first) {
+      color: red;
+      background-color: #555;
+    }
+    li a.first {
+      background-color: green;
+      color: white;
+    }
+    li a:active:not(.first) {
+      color: yellow;
+      background-color: rgb(255, 153, 0);
+    }
+    a{
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <h1>Vertical Navigation bar</h1>
+    <ul>
+      <li><a class="first" href="#">Toán giải tích</a></li>
+      <li><a href="#">Lập trình</a></li>
+      <li><a href="#">Hướng đối tượng</a></li>
+      <li><a href="#">Cấu trúc dữ liệu và giải thuật</a></li>
+    </ul>
+    <div>
+  </body>
+</html>

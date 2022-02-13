@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizontal Navigation Bar</title>
+    <style>
+      li {
+        display: inline;
+      }
+      div {
+        background-color: #f1f1f1;
+        width: 250px;
+        padding: 25px;
+        word-spacing: 15px;
+      }
+      li a.first {
+        background-color: green;
+        color: white;
+      }
+      li a:hover:not(.first) {
+        background-color: rgb(167, 26, 26);
+        color: white;
+      }
+      li a:hover {
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Horizontal Navigation</h1>
+    <div>
+      <li><a class="first" href="#"> Home</a></li>
+      <li><a href="#"> News</a></li>
+      <li><a href="#"> Contact</a></li>
+      <li><a href="#"> About</a></li>
+    </div>
+  </body>
+</html>

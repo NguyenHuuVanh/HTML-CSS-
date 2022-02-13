@@ -1,0 +1,19 @@
+h1 {
+  text-decoration: underline red double;
+  text-align: center;
+}
+p {
+  text-justify: distribute;
+}
+img {
+  height: 584px;
+  width: 350px;
+}
+body {
+  background-image: url("https://image.thanhnien.vn/w1024/Uploaded/2022/oqivotiw/2021_11_30/messi-qbv-2368.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 120%;
+}

@@ -1,0 +1,49 @@
+img {
+  width: 350px;
+  height: 250px;
+}
+body {
+  background-color: #686868;
+}
+h1 {
+  border: 2px solid powderblue;
+  margin-top: 50px;
+  padding-right: 50%;
+  text-align: center;
+  background-color: hsla(9, 100%, 64%, 0);
+}
+h2 {
+  text-align: center;
+}
+cite {
+  color: red;
+  border-style: double;
+}
+bdo {
+  color: royalblue;
+}
+blockquote {
+  background-color: rgb(255, 91, 71);
+  color: aqua;
+}
+bdo {
+  background-color: rgba(255, 99, 71, 0);
+  background-color: #ffffff;
+}
+a :link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(132, 0, 255);
+}
+p:class {
+  text-decoration-line: line-through;
+}

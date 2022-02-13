@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Javascrips</title>
+  </head>
+  <body>
+    <h1>My first Javascrips</h1>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML=Date()"
+    >
+      Click on Date and time
+    </button>
+    <p id="demo"></p>
+    <p>Hello Javascript</p>
+    <p id="hello_Javascript"></p>
+    <script>
+      document.getElementById("hello_Javascript").innerHTML =
+        "Hello Javascript!";
+    </script>
+    <h2>Another type Hello Javascript</h2>
+    <button type="button" onclick="myfunction()">Click this!</button>
+    <p id="demo2">Before change</p>
+    <script>
+      function myfunction() {
+        document.getElementById("demo2").innerHTML = "After change!";
+      }
+    </script>
+  </body>
+</html>
